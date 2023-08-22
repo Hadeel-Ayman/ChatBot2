@@ -1,0 +1,21 @@
+.FItem_item {
+    border: 1.5px solid #4C4C4C;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.FItem_item .img_div {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.FItem_item .img_div img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,231 @@
+.SignupModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    z-index: 55 !important;
+
+}
+
+.modal.show .modal-dialogj {
+    transform: none;
+    height: 85%;
+    position: absolute;
+    top: -2%;
+}
+
+@media (max-width:896px) {
+    .div_robot {
+        display: none;
+    }
+
+    .form-area {
+        width: 112%;
+        line-height: 40px;
+    }
+}
+
+.modal-backdrop.show {
+    z-index: 9999;
+}
+
+.fade {
+    z-index: 55 !important;
+}
+
+.div_form {
+    width: 60%;
+}
+
+.modal {
+    z-index: 55 !important;
+}
+
+.modall {
+    padding: 10px;
+
+}
+
+.closeAndTitle {
+    display: flex;
+    gap: 10px;
+    padding: 19px;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    height: 100% !important;
+    border: none !important;
+    /* border-radius: 20px !important; */
+    padding: 20px 0;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-close {
+    background-color: rgb(79, 206, 206) !important;
+    width: 20px !important;
+    height: 20px !important;
+    cursor: pointer !important;
+    border-radius: 50% !important;
+}
+
+.form-area {
+    padding: 3em;
+    color: #fff;
+    width: 90%;
+    /* background-color: red; */
+}
+
+.form-area h5 {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+
+.imgAndForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.div_robot {
+    width: 40%;
+    /* background-color: #0F49CC; */
+    background-image: url('../../assets/images/sign.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    background-size: contain;
+    margin: auto;
+    height: 220px;
+}
+
+.div_robot img {
+    position: absolute;
+    width: 207px;
+    bottom: 10px;
+    right: -30px;
+    height: 304px;
+}
+
+.form-control {
+    width: 80% !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+    border-bottom: 1px solid #B2B2B2 !important;
+    border-radius: 0 !important;
+}
+
+.form-control::placeholder {
+    color: #4C4C4C !important;
+}
+
+.form-control:active {
+    border-color: transparent !important;
+}
+
+.form-area .btn {
+    width: 80%;
+    font-weight: 800;
+    color: #fff;
+    background-color: #0F49CC !important;
+    padding: 0.5em 0;
+    border-radius: 8px;
+}
+
+.modal-dialog {
+    transition: 0.7s;
+    /* background-color: red !important; */
+    background-color: rgb(0, 0, 0, 0.4);
+    /* background-color: red; */
+    border-radius: 20px !important;
+    margin-top: 85px !important;
+    /* position: relative !important;
+    overflow: hidden; */
+    /* height: 60% !important; */
+    border: 1px solid
+}
+
+.modal-dialog::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+.form-area p {
+    text-align: center;
+    padding-top: 2em;
+    color: #fff;
+}
+
+.form-area p a {
+    color: #e1e1e1;
+    text-decoration: none;
+}
+
+.form-area p a:hover {
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .form-area {
+        padding: 1.5em;
+    }
+
+    .form-area h5 {
+        font-size: 18px;
+    }
+
+    .div_robot {
+        /* display: none; */
+    }
+
+    .div_form {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 70% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .div_robot {
+        /* display: none; */
+    }
+
+    .div_form {
+        width: 100%;
+    }
+}
+
+@keyframes blowUp {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.blow-up-animation {
+    animation: blowUp 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}

@@ -1,0 +1,135 @@
+.conditions-sections {
+  max-width: 100%;
+  width: 1138px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 11px;
+  padding-bottom: 70px;
+  border: 2px solid;
+  position: relative;
+  background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(15, 73, 204, 0.2) 0%, rgba(91, 136, 235, 0.0448) 67.39%, rgb(212 225 255 / 0%) 91.58%)
+    , radial-gradient(80.38% 222.5% at -13.75% -12.36%, #1a2122 0%, rgba(15, 73, 204, 0) 100%)
+    , radial-gradient(80.69% 208.78% at 108.28% 112.58%, #0e0e0e 0%, rgba(15, 56, 178, 0) 100%)
+  ;
+
+  border: 2px solid;
+  border-image-source: radial-gradient(80.69% 208.78% at 108.28% 112.58%, #D3DEFF 0%, rgba(15, 56, 178, 0) 100%)
+    ,
+    radial-gradient(80.38% 222.5% at -13.75% -12.36%, #98F9FF 0%, rgba(15, 73, 204, 0) 100%)
+  ;
+
+}
+
+.containerr {
+  max-width: 900px;
+}
+
+.content {
+  margin-top: 70px;
+}
+
+.works_title {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #E4E6EB;
+}
+
+.works_img {
+  margin-bottom: 1.25rem;
+}
+
+.works_description {
+  color: #FFFFFF;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: right;
+}
+
+.imagee {
+  width: 60.3px;
+  height: 46.5px;
+  margin-bottom: 1rem;
+}
+
+.works_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.works_card {
+  width: 100%;
+  padding: 2rem 1.875rem 1.875rem 1.875rem;
+  border-radius: 20px;
+  transition: all 0.3 ease-in-out;
+  border: 2px solid #4C4C4C;
+  background: linear-gradient(0deg, rgba(20, 20, 20, 0.08), rgba(20, 20, 20, 0.08)),
+    linear-gradient(319.43deg, #15161c 46.47%, rgba(76, 76, 76, 0) 109.12%);
+
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+/* Add media query for tablet screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .box-container {
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns for tablets */
+    height: auto;
+  }
+
+  .item1 .works_card,
+  .item3 .works_card {
+    padding-bottom: 91px;
+  }
+
+  /* style="padding-bottom: 92px;" */
+}
+
+/* Add media query for larger screens */
+@media (min-width: 1024px) {
+  .box-container {
+    grid-template-columns: repeat(4, 1fr);
+    /* Four columns for larger screens */
+  }
+
+  .item2 {
+    grid-column: 2 / span 3;
+
+  }
+
+  .item4 {
+    grid-column: 1 / span 3;
+    padding-left: 10px
+  }
+
+  .item1 .works_card,
+  .item3 .works_card {
+    margin-left: 110px;
+  }
+}

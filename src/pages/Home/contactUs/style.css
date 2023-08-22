@@ -1,0 +1,172 @@
+
+.Contact_section {
+    background-image: url('../../../assets/images/Ourspaceship-Africa-2k\ 2\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: calc(110% / 2) calc(200% / 2);
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.customer {
+    width: 50px;
+    height: 50px;
+}
+
+.whatsap_div {
+    margin-right: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+    /* margin-top: 20%; */
+}
+
+.whatsap_div img {
+    width: 55px;
+    height: 55px;
+}
+
+.div2 {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    /* width: 80%; */
+    width: 300px;
+}
+
+.div2 img {
+    border-radius: 50%;
+}
+
+.div2>div {
+    display: flex;
+}
+
+.div2>div a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.whatsap_div a {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 9px;
+    position: absolute;
+    right: 60px;
+    z-index: 1111111;
+    text-decoration: none;
+    border-radius: 11px;
+}
+
+
+
+.Contact_section .images {
+    width: 50%;
+}
+
+@media (max-width: 780px) {
+    .images {
+        display: none;
+
+    }
+
+    .Contact_section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.images ul {
+    position: relative;
+    top: 290px;
+    right: 160px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 350x;
+    height: 50px;
+}
+
+.images ul li {
+    list-style: none;
+    width: 50px;
+    height: 50x;
+    border-radius: 50%;
+    background-color: rgb(255, 175, 3);
+    animation: dots 1.6s ease-in-out infinite;
+}
+
+
+.images ul li:nth-child(1) {
+    top: 60px;
+    position: inherit;
+}
+
+
+.images ul li:nth-child(3) {
+    top: 50%;
+    position: inherit;
+}
+
+
+@keyframes dots {
+
+    0%,
+    40%,
+    100% {
+        transform: scale(0.3);
+        transition: 0.3s;
+    }
+
+    20% {
+        transform: scale(0.6);
+        transition: 0.3s;
+
+    }
+}
+
+.customer_service {
+    position: absolute;
+    right: 1.5%;
+    width: 100%;
+    bottom: 13%;
+    border-radius: 10px ;
+}
+
+
+.hello_customer {
+    /* width: 80%; */
+    display: flex;
+}
+
+.hello_customer .customer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    padding: 60px 20px;
+    width: 300px;
+    background-color: #73b93f;
+}
+
+.close {
+    background-color: #67af2f;
+    width: 55px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.hello_customer .whatsap_icon {
+    display: flex;
+    justify-content: flex-end;
+}

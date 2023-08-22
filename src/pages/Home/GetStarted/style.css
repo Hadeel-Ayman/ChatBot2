@@ -1,0 +1,252 @@
+.inner-container {
+    gap: 1.5rem;
+    background-color: #4161df;
+    background-image: url('../../../assets/images/backgroundGet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 6px solid #5d77d6;
+    text-align: center;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex: 1;
+}
+
+.left-content {
+    flex: 1;
+    padding-top: 40px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.Register {
+    display: flex !important;
+}
+
+.Register button {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    color: #fff;
+    border: 3px;
+    border: 3px solid #FFFFFF;
+    background: linear-gradient(107.45deg, #ffffff8f 3.76%, rgba(255, 255, 255, 0) 48.43%);
+}
+
+.Register button div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container .primaryText {
+    color: white;
+    font-weight: 600;
+}
+
+.inner-container .secondaryText {
+    color: rgba(255, 255, 255, 0.587);
+    font-weight: 600;
+}
+
+.button {
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    transition: all 300ms ease-in;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.inner-container .button {
+    background-color: #5a73d7;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.flexColCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divChart {}
+
+.paddings {
+    padding: 1.5rem;
+}
+
+.innerWidth {
+    width: 100%;
+}
+
+@media (min-width: 1536px) {
+    .innerWidth {
+        max-width: 1280px;
+        max-width: auto;
+    }
+}
+
+@media (min-width: 640px) {
+    .paddings {
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 1280px),
+(min-width: 768px) {
+    .paddings {
+        padding: 2rem;
+    }
+}
+
+.tt {
+    background-image: url('../../../assets/images/Group\ 37346.svg');
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rrr {
+    background-image: url('../../../assets/images/Rectangle 1732.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: inline; */
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* margin: auto; */
+}
+
+.button-cont {
+    width: 230px;
+    margin: auto;
+    height: 70px;
+    margin-top: -4%;
+}
+
+.l {
+    text-align: left;
+}
+
+.ee {
+    width: 35%;
+    height: 70%;
+}
+
+.f {
+    color: #0F49CC;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.m {
+    color: #0B0B0D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.get-started {
+    background-image: url('../../../assets/images/backgroundGet.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    max-width: 70%;
+    /* margin-top: 20px auto; */
+    margin: 50px auto 0 auto;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+.get-started-content {
+    /* width: 50%; */
+    /* padding: 40px; */
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 22px;
+    /* line-height: 32px; */
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #E4E6EB;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #E4E6EB;
+}
+
+@media (max-width: 1280px) {
+
+    .flex-container {
+        width: 100%;
+        /* يأخذ عرض الشاشة بالكامل */
+        display: block;
+    }
+
+    .tt {
+        padding: 30px;
+    }
+
+}
+
+@media (max-width: 780px) {
+    .divChart {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .button-cont {
+        margin-top: 0;
+    }
+
+    .tt img {
+        width: 120px;
+    }
+
+    .get-started {
+        padding: 15px;
+    }
+}
+
+.raduis {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF3D;
+    text-align: center;
+    /* padding-top: 6px; */
+    /* display: inline; */
+    /* justify-content: center; */
+}

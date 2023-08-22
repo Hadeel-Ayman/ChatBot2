@@ -1,0 +1,23 @@
+.note_component {
+    background-color: #524a30c4;
+    border: 2px dashed rgba(248, 185, 16, 1);
+    color: #fff;
+    padding: 10px;
+    margin-top:20px;
+    border-radius: 6px;
+}
+
+.note_component .note {
+    color: #b68910;
+    background-color: transparent;
+}
+
+.note_component .span{
+    word-break: break-word;
+}
+
+@media (min-width: 1024px) {
+    .note_component {
+        width: 680px;
+    }
+  }

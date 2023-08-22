@@ -1,0 +1,16 @@
+.flexx {
+    display: flex;
+    justify-content: space-between;
+    color: #E4E6EB;
+    align-items: center;
+}
+
+.SubscriptionItem p {
+    font-size: 16px;
+    text-align: right;
+    color: #E4E6EB;
+}
+
+.SubscriptionItem .flexx h4{
+    font-size: 25px;
+}

@@ -1,0 +1,13 @@
+.counter_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 80%;
+    /* background-color: red; */
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+
+.counter {
+    padding: 60px 0 120px;
+}

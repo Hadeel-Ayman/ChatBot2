@@ -1,0 +1,21 @@
+.ItemSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 2px;
+    margin-top: 14px;
+    background-color: transparent;
+}
+
+.ItemSection p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+}
+
+.ItemSection .rounded-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}

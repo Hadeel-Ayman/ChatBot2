@@ -1,0 +1,52 @@
+.conditions-section {
+    /* width: 1138px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 11px;
+    border: 2px solid;
+
+    background: radial-gradient(80.69% 208.78% at 108.28% 112.58%, #D3DEFF 0%, rgba(15, 56, 178, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        /* ,
+        radial-gradient(80.38% 222.5% at -13.75% -12.36%, #98F9FF 0%, rgba(15, 73, 204, 0) 100%) */
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    /*; */
+
+
+    /* background: radial-gradient(rgba(15, 73, 204, 0.2)
+    rgba(91, 136, 235, 0.04)
+    rgba(192, 206, 239, 0)) */
+    /* background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(15, 73, 204, 0.2) 0%, rgba(91, 136, 235, 0.0448) 67.39%, rgba(192, 206, 239, 0) 91.58%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    /* , */
+    /* radial-gradient(80.38% 222.5% at -13.75% -12.36%, #5ebdc2 0%, rgba(15, 73, 204, 0) 100%) */
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    /* , */
+    /* radial-gradient(80.69% 208.78% at 108.28% 112.58%, #7b99f1 0%, rgba(15, 56, 178, 0) 100%) */
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    max-width: 100%;
+    width: 1138px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 11px;
+    padding-bottom: 70px;
+    border: 2px solid;
+  position: relative;
+  background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(15, 73, 204, 0.2) 0%, rgba(91, 136, 235, 0.0448) 67.39%, rgb(212 225 255 / 0%) 91.58%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(80.38% 222.5% at -13.75% -12.36%, #1a2122 0%, rgba(15, 73, 204, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(80.69% 208.78% at 108.28% 112.58%, #0e0e0e 0%, rgba(15, 56, 178, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+    border: 2px solid;
+
+    border-image-source: radial-gradient(80.69% 208.78% at 108.28% 112.58%, #D3DEFF 0%, rgba(15, 56, 178, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(80.38% 222.5% at -13.75% -12.36%, #98F9FF 0%, rgba(15, 73, 204, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+
+.content {
+    margin-top: 31px;
+    background-color: transparent;
+}
+
+.btns {
+    display: flex;
+    background-color: transparent;
+}

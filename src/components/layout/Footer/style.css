@@ -1,0 +1,155 @@
+.footer {
+  background-image: url('../../../assets/images/back.png');
+  width: 100%;
+  padding: 0;
+  margin-top: 130px;
+}
+
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  cursor: pointer ;
+}
+
+.flex,
+.paragraph {
+  display: flex;
+  align-items: center;
+}
+
+.ss {
+  background-color: black;
+  justify-content: space-between;
+}
+
+.paragraph2 {
+  /* margin-top: 20px; */
+}
+
+.footter {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  color: #E4E6EB;
+}
+
+.footter p {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.heading {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+
+}
+
+.footer-icon {
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  margin: 4px;
+  background-color: #6e6e6e91;
+  border-radius: 5px;
+}
+
+.desc {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #FFFFFF;
+
+}
+
+.desc2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  /* color: #FFFFFF; */
+  color: #E4E6EB;
+
+}
+
+
+.right {
+  /* width: 70%; */
+  padding-right: 1.5rem;
+  padding-top: 3.5rem;
+}
+
+.footer_img {
+  width: 268px;
+  height: 299px;
+}
+
+/* شاشات أقل من 768 بكسل */
+@media (max-width: 780px) {
+  .footer_container {
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 90%; قم بتعديل هذه القيمة حسب احتياجاتك */
+  }
+
+  .flex,
+  .footter {
+    margin-top: 10px;
+    flex-direction: column;
+    /* تغيير توجيه العناصر ليكون عمودياً */
+    align-items: flex-start;
+  }
+
+  .right {
+    /* width: 70%; */
+    padding-top: 3rem;
+  }
+
+  .leftt {
+    width: 100%;
+    padding-top: 2rem;
+    text-align: center;
+  }
+}
+
+/* شاشات أقل من 576 بكسل */
+@media (max-width: 576px) {
+  .footer_container {
+    grid-template-columns: repeat(1, 1fr);
+    /* تقسيم العمودين إلى نصفين متساويين */
+  }
+
+  .footer {
+    margin-top: 80px;
+    /* قم بتعديل هذه القيمة حسب احتياجاتك */
+  }
+
+  .flex,
+  .footter {
+    flex-direction: column;
+    /* تغيير توجيه العناصر ليكون عمودياً */
+    align-items: flex-start;
+  }
+
+  .right {
+    /* width: 70%; */
+    padding-top: 48px;
+  }
+
+  .leftt {
+    width: 100%;
+    text-align: center;
+    padding-top: 0px
+  }
+
+}

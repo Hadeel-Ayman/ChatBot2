@@ -1,0 +1,29 @@
+.Titles_div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* توسيع المسافة بين العناصر */
+  padding-bottom: 2rem;
+  /* تضبيط المسافة بين العناصر والعناصر التالية */
+  width: 80%;
+  margin: auto;
+}
+
+.Titles_div h4 {
+  color: #F8B910;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.hr {
+  flex-grow: 1;
+  /* تمدد خط الأفقي ليأخذ المساحة المتاحة */
+  border: none;
+  /* border-top: 1px solid #ccc; */
+  width: 370px;
+  /* border: 0; */
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #525050, transparent);
+
+}

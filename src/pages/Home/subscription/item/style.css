@@ -1,0 +1,18 @@
+.SubItem {
+    color: #E4E6EB;
+    margin: 20px 0;
+}
+
+.flexxx {
+    display: flex;
+    gap: 10px;
+}
+
+.flexxx img {
+    width: 25px;
+    height: 25px;
+}
+
+.flexxx p {
+    font-size: 13px;
+}

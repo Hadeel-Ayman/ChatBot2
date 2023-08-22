@@ -1,0 +1,132 @@
+{
+    "sign": "Sign up",
+    "sign1": "Sign up",
+    "contact": "Contact Us",
+    "conditions": "Terms and Conditions",
+    "business": "Works",
+    "packages": "Packages",
+    "features": "Features",
+    "service": "Services",
+    "home": "Home",
+    "FullName": "Full Name",
+    "password": "Password",
+    "pay": "Pay",
+    "first": "First Name",
+    "second": "Second Name",
+    "company": "Company Name",
+    "phone": "Phone Number",
+    "email": "E-mail",
+    "Mail": "Postal Code/ZIP",
+    "choise": "Choose the plan that best suits your business on social media",
+    "dhab": "Golden Package",
+    "fada": "Silver Package",
+    "bronz": "Bronze Package",
+    "subscription": "Subscription",
+    "mainTitle": "Helps you with a professional, quick and brief reply.",
+    "subTitle": "The best platform for marketing across all social media platforms by sending advertising campaigns, automatic response and chat bots, and you can now create your own bot",
+    "start": "Start now",
+    "help": "Need help?",
+    "chat": "Start Chat now",
+    "descService": "It allows you to connect with customers in seconds for a small fee via text, photos or videos. Send promotions, confirmations, reminders or news. The best part is that it only takes minutes, and you can run a chatbot and respond to your customers' inquiries with keywords.",
+    "AdsDes1": "You can see and know the results of the chatbot in interacting and responding to customers if you register your account by looking at the statistics it has achieved",
+    "data": [
+        {
+            "serviceItem1": "Automatic reply to customers",
+            "serviceItem1Desc": "You can create an automated customer response or welcome message in text, image or video.",
+            "Image": "img1"
+        },
+        {
+            "serviceItem2": "WhatsApp chat bot",
+            "serviceItem2Desc": "Now you can create a complete WhatsApp chat bot with keywords and respond to all your customers' inquiries in text, photo or video.",
+            "Image": "img2"
+        },
+        {
+            "serviceItem3": "Send promotional campaigns",
+            "serviceItem3Desc": "You can send thousands of promotions very easily with WhatsApp Bot in one click.",
+            "Image": "img3"
+        }
+    ],
+    "featuresTitle": "You must be looking for interest in a quick, professional and brief response that shows us the benefit accruing to us from obtaining the offered service or product",
+    "featuresDesc": "The solution is with us. We will solve all these problems for you regarding the speed of immediate response to any comment on any post, as well as responding to private messages on communication platforms (Messenger, Instagram, and WhatsApp) and in an out-of-the-box way, so that the customer turns from a customer who is not interested in buying into a confirmed customer who is willing to obtain your services or products. Thus increasing your sales",
+    "featuresItem1": "Quick, professional and brief response",
+    "featuresItem2": "Savings on entrepreneurs and saving money",
+    "featuresItem3": "24-hour reply and increase sales",
+    "featuresItem4": "The appropriate and appropriate response to your audience and your project",
+    "browes": "Business browsing",
+    "sayOfService": "What did they say about IQ.bot services",
+    "rights": "All rights reserved for Iraq in Your Hands Company",
+    "boss": "Chief Executive Officer: Ali Abdul Rahman",
+    "bossBio": "And the owner of the Iraqak group of companies in your hands and the iQ bot platform that supports artificial intelligence by responding to social media platforms and the iraqak.marketing platform that specializes in making mobile electronic branches for your project and other projects that simulate artificial intelligence in e-marketing",
+    "location": "Iraq, Karbala, Al-Baladiya neighborhood, next to Elaf Bank",
+    "AdsTerms": "In the event that you are unable to implement a specific order through the site, you can communicate with the administration through the Facebook page. Official working hours are from 8 am to 8 pm. A way to contact technical support is through the Facebook page only http://m.me/ IQBot.me",
+    "TermsConditions": [
+        "You must read and agree to these terms before dealing with us",
+        "If you object to any of these terms, you cannot register with us, and you cannot benefit from our services, and you must leave the site now.",
+        "Your membership is only a permit from the administration for your use of the site through your account on it, and the administration can withdraw this permit at any time in the event that you violate the terms of the site or the usage policies, without any material or moral compensation and without the slightest responsibility on the site or its management",
+        "There is no refund policy in all cases",
+        "The user bears full and legal responsibility for any actions he performs using the services of the site or the company",
+        "The administration has the right to update the service in the way it deems appropriate, and no user has the right to object to updates or company policies or to interfere in its affairs.",
+        "The company has the right to freeze the membership of any user who causes any material or moral damage to it, and only the administration decides the necessary procedures in these matters",
+        "Registration is free on the site for a limited period only. The administration has the right to cancel it at any time",
+        "The administration is not responsible for not reading the site's policies. When you register for the site, you agree to it",
+        "The administration is not fully responsible for the site's misuse of the available services",
+        "In the event that companies make updates that cannot be kept up, the service will be stopped",
+        "We are not responsible for using your personal numbers and blocking them through transmissions"
+    ],
+    "names": [
+        {
+            "shams": "Shams Hassan",
+            "job": "UXUI Designer",
+            "src": "pause",
+            "music": "music"
+        },
+        {
+            "shams": "Shams Hassan",
+            "job": "UXUI Designer",
+            "src": "pause",
+            "music": "music"
+        },
+        {
+            "shams": "Shams Hassan",
+            "job": "UXUI Designer",
+            "src": "pause",
+            "music": "music"
+        },
+        {
+            "Ahmed": "Ahmed Sabbagh",
+            "job": "Graphic Designer",
+            "src": "run",
+            "music": "img2"
+        },
+        {
+            "Eman": "Eman Elswerky",
+            "job": "Graphic Designer",
+            "src": "pause",
+            "music": "img2"
+        },
+        {
+            "Randa": "Randa Abu Swerh",
+            "job": "UXUI Designer",
+            "src": "run",
+            "music": "img2"
+        }
+    ],
+
+    "note": "This is advanced programming to improve the WhatsApp service, and it is not an official API for WhatsApp",
+    "note1": "Important note : ",
+    "acceptTerms": "Agree to the Terms of Use and Privacy Policy",
+    "accept": "Acceptance",
+    "reject": "Reject",
+    "AdsBusniess": "Our company specializes in the field of Digital Marketing, e-marketing, and providing digital services, Drop Service, to any business owner, whether online only or traditional offline sales, and providing unique and unique services that support artificial intelligence at a very low price in order to spread the benefit to everyone and support the owners of emerging as well as developed projects through these services. the introduction",
+    "greeting": "Welcome to the exhibition of your Iraq in your hands company",
+    "withYou": "with you wherever you are",
+    "Ads": "Advertising campaigns",
+    "logos": "Designs and logos",
+    "ecommerce": "Online stores",
+    "chatBot": "chat Bot",
+    "RegistNow": "Register now",
+    "name": "Name",
+    "message": "Your Message",
+    "send": "Send",
+    "enterMessage": "Write your message here..."
+}

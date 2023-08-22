@@ -1,0 +1,22 @@
+.CheckSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 2px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.CheckSection .check {
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: #3f4148;
+}
+
+.CheckSection p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+}

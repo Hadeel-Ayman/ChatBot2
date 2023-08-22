@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.rtl {
+  direction: rtl;
+
+}
+
+.ltr {
+  direction: ltr;
+}
+
+
+.ltr nav .navbar-nav {
+  display: flex;
+  gap: 4px;
+}
+
+.ltr .footer_container {
+  gap: 12px;
+}
+
+
+.ltr .r-button>:nth-child(1) {
+  transform: rotate(180deg);
+}
+
+.ltr .r-button>:nth-child(2) {
+  transform: rotate(0);
+}
+
+.ltr .item1 .works_card {
+  margin-left: 0;
+  height: auto;
+}
+
+.ltr .item3 .works_card {
+  margin-left: 0;
+}
+
+.ltr .works_card {
+  text-align: left;
+}
+
+.ltr .works_title {
+  font-size: 13px;
+  margin-top: 22px;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.ltr .works_card a {
+  text-align: left;
+  line-height: 20px;
+}
+
+.ltr .bot::after {
+  left: -15px;
+  top: -10px;
+}
+
+.ltr .raduis {
+  transform: rotate(180deg);
+}
+
+.ltr .Ads_div h4 {
+  padding-left: 27%;
+}
+
+.ltr .overlay {
+  left: -17%;
+}
+
+.ltr .a {
+  top: -537px;
+}
+
+.ltr .hero_img img {
+  transform: rotateY(-360deg);
+}
+
+.ltr .left {
+  transform: rotateY(-180deg);
+}
+
+.ltr .SubscriptionItem p {
+  text-align: left;
+}
+
+.ltr .whatsap_div {
+  margin-left: 13px;
+}
+
+.ltr .whatsap_div a {
+  left: 54px;
+  width: 300px;
+
+}
+
+@media (max-width: 576px) {
+  .ltr .desc2 {
+    font-size: 15px;
+    padding-left: 8px;
+    color: #E4E6EB;
+  }
+}
+
+@media (max-width: 768px) {
+  .ltr .desc2 {
+    font-size: 18px;
+    padding-left: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #606061;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #262627;
+  border-radius: 10px;
+}
+
+:root {
+  --basic-color: #0F49CC;
+  --secondary-color: #F8B910;
+  --text-color: #E4E6EB;
+  --color: #FFFFFF;
+  --background-color: #0b0e1a;
+}
+
+button,
+input {
+  outline: none;
+}

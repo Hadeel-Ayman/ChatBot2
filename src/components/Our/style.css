@@ -1,0 +1,16 @@
+.Hello_div {
+    margin-bottom: 20px;
+}
+
+.works_card a{
+    word-break: break-all;
+}
+.Hello_div p {
+    color: #E4E6EB;
+    line-height: 32px;
+    font-weight: 500;
+    /* margin-top: 14px;
+    padding-left: 200px;
+    background-color: transparent; */
+    font-size: 18px;
+}

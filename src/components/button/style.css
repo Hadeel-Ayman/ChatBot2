@@ -1,0 +1,13 @@
+.btns {
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btns .btn {
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid;
+    font-weight: 700;
+    color: #fff !important;
+    outline: none;
+}
