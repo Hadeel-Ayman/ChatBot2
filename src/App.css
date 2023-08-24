@@ -53,16 +53,11 @@
 
 .ltr .swiper {
   direction: rtl;
-  /* transform: translate3d(-530px, 0px, 0px); */
 }
 
 .ltr .fade-in {
   direction: ltr !important;
 }
-
-/* .rtl .swiper-wrapper {
-  transform: translate3d(0px, 0px, 0px);
-} */
 
 .ltr .item1 .works_card {
   margin-left: 0;

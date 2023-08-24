@@ -173,25 +173,20 @@
     padding: 50px;
     color: white;
     max-width: 70%;
-    /* margin-top: 20px auto; */
     margin: 50px auto 0 auto;
     border-radius: 20px;
     margin-bottom: 150px;
 }
+
 @media (max-width:320px) {
-    .get-started{
+    .get-started {
         max-width: 90% !important;
     }
-}
-.get-started-content {
-    /* width: 50%; */
-    /* padding: 40px; */
 }
 
 .btn-primary {
     font-weight: 700;
     font-size: 22px;
-    /* line-height: 32px; */
 }
 
 .section-description {
@@ -212,7 +207,6 @@
 
     .flex-container {
         width: 100%;
-        /* يأخذ عرض الشاشة بالكامل */
         display: block;
     }
 
@@ -250,7 +244,4 @@
     border-radius: 50%;
     background-color: #FFFFFF3D;
     text-align: center;
-    /* padding-top: 6px; */
-    /* display: inline; */
-    /* justify-content: center; */
 }

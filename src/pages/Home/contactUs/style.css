@@ -1,4 +1,3 @@
-
 .Contact_section {
     background-image: url('../../../assets/images/Ourspaceship-Africa-2k\ 2\ \(1\).svg');
     background-repeat: no-repeat;
@@ -37,7 +36,6 @@
     padding: 20px;
     align-items: center;
     gap: 10px;
-    /* width: 80%; */
     width: 300px;
 }
 
@@ -137,7 +135,7 @@
     right: 1.5%;
     width: 100%;
     bottom: 13%;
-    border-radius: 10px ;
+    border-radius: 10px;
 }
 
 

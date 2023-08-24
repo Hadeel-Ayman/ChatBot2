@@ -29,9 +29,6 @@ a {
   justify-content: space-between;
 }
 
-.paragraph2 {
-  /* margin-top: 20px; */
-}
 
 .footter {
   width: 80%;
@@ -89,7 +86,6 @@ a {
 }
 
 .right {
-  /* width: 70%; */
   padding-right: 1.5rem;
   padding-top: 3.5rem;
 }
@@ -99,23 +95,19 @@ a {
   height: 299px;
 }
 
-/* شاشات أقل من 768 بكسل */
 @media (max-width: 780px) {
   .footer_container {
     grid-template-columns: repeat(1, 1fr);
-    /* width: 90%; قم بتعديل هذه القيمة حسب احتياجاتك */
   }
 
   .flex,
   .footter {
     margin-top: 10px;
     flex-direction: column;
-    /* تغيير توجيه العناصر ليكون عمودياً */
     align-items: flex-start;
   }
 
   .right {
-    /* width: 70%; */
     padding-top: 3rem;
   }
 
@@ -126,27 +118,22 @@ a {
   }
 }
 
-/* شاشات أقل من 576 بكسل */
 @media (max-width: 576px) {
   .footer_container {
     grid-template-columns: repeat(1, 1fr);
-    /* تقسيم العمودين إلى نصفين متساويين */
   }
 
   .footer {
     margin-top: 80px;
-    /* قم بتعديل هذه القيمة حسب احتياجاتك */
   }
 
   .flex,
   .footter {
     flex-direction: column;
-    /* تغيير توجيه العناصر ليكون عمودياً */
     align-items: flex-start;
   }
 
   .right {
-    /* width: 70%; */
     padding-top: 48px;
   }
 
