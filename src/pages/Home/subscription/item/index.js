@@ -1,18 +1,20 @@
 import React from 'react'
 import './style.css'
-import { pricing } from '../../../../mock/data';
 import { useTranslation } from 'react-i18next';
+import check from '../../../../assets/images/check1.png'
+import falsee from '../../../../assets/images/false.png'
 
 
 const SubItem = () => {
     const { t } = useTranslation()
+    const examples = t('examples', { returnObjects: true });
     return (
         <div className='SubItem'>
             {
-                pricing.map((item) => (
+                examples.map((item) => (
                     <div className='flexxx'>
-                        <img src={item.img} alt='' />
-                        <p>{item.desc}</p>
+                        <img src={item.img === 'check' ? check : item.img === 'falsec' ? falsee : ''} alt='' loading='lazy' />
+                        <p>{t(item.example)}</p>
                     </div>
                 ))
             }

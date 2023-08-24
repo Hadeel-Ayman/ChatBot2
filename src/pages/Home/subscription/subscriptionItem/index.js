@@ -7,7 +7,7 @@ export const SubscriptionItem = ({ price, src, title }) => {
             <p>{title}</p>
             <div className='flexx'>
                 <h4>{price}</h4>
-                <img src={src} alt='' />
+                <img src={src} alt='' loading='lazy'/>
             </div>
         </div>
     )

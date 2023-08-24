@@ -7,37 +7,43 @@ import Check from './checkbox'
 import Button from '../../components/button'
 import { useTranslation } from 'react-i18next';
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/layout/Footer'
+import Header from '../../components/layout/Header'
 
 const Conditions = () => {
   const { t } = useTranslation();
   const translatedArray = t('TermsConditions', { returnObjects: true });
 
   return (
-    <div className='conditions-section'>
-      <Zoom top>
-        <Ads title={t('conditions')} desc={t('AdsTerms')} />
-      </Zoom >
-      <div className='content'>
-        {translatedArray.map((item, index) => (
-          <Item description={item} key={index} />
-        ))}
-        <Note />
-        <Check title={t('acceptTerms')} />
-        <div className='btns'>
-          <Button title={t('accept')}
-            width={'300px'}
-            borderRadius={'8px'}
-            backgroundColor={'#0f49cc'}
-            borderColor={'#0f49cc'} />
+    <>
+      <Header />
+      <div className='conditions-section'>
+        <Zoom top>
+          <Ads title={t('conditions')} desc={t('AdsTerms')} />
+        </Zoom >
+        <div className='content'>
+          {translatedArray.map((item, index) => (
+            <Item description={item} key={index} />
+          ))}
+          <Note />
+          <Check title={t('acceptTerms')} />
+          <div className='btns'>
+            <Button title={t('accept')}
+              width={'300px'}
+              borderRadius={'8px'}
+              backgroundColor={'#0f49cc'}
+              borderColor={'#0f49cc'} />
 
-          <Button title={t('reject')}
-            backgroundColor={'#3e4148'}
-            borderRadius={'8px'}
-            width={'300px'}
-            borderColor={'#3e4148'} />
+            <Button title={t('reject')}
+              backgroundColor={'#3e4148'}
+              borderRadius={'8px'}
+              width={'300px'}
+              borderColor={'#3e4148'} />
+          </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   )
 }
 

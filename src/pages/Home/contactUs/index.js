@@ -61,7 +61,7 @@ const Contact = () => {
                     </div>
                     <div className='div2'>
                         <div>
-                            <img src={customer} alt='' className='customer' />
+                            <img src={customer} alt='customer' className='customer' loading='lazy'/>
                             <a style={{ marginTop: '1rem' }} onClick={openWhatsApp}>خدمة العملاء</a>
                         </div>
                         <BsWhatsapp style={{ width: '30px', height: '30px', color: '#73b93f', marginTop: '1rem' }} />

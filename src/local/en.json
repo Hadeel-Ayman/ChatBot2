@@ -8,6 +8,32 @@
     "features": "Features",
     "service": "Services",
     "home": "Home",
+    "examples": [
+        {
+            "example": "Here is an example of the company's customer service",
+            "img": "check"
+        },
+        {
+            "example": "Here is an example of the company's customer service",
+            "img": "check"
+        },
+        {
+            "example": "Here is an example of the company's customer service",
+            "img": "check"
+        },
+        {
+            "example": "Here is an example of the company's customer service",
+            "img": "check"
+        },
+        {
+            "example": "Here is an example of the company's customer service",
+            "img": "check"
+        },
+        {
+            "example": "Here is an example of the company's customer service",
+            "img": "falsec"
+        }
+    ],
     "FullName": "Full Name",
     "password": "Password",
     "pay": "Pay",
@@ -56,7 +82,7 @@
     "sayOfService": "What did they say about IQ.bot services",
     "rights": "All rights reserved for Iraq in Your Hands Company",
     "boss": "Chief Executive Officer: Ali Abdul Rahman",
-    "bossBio": "And the owner of the Iraqak group of companies in your hands and the iQ bot platform that supports artificial intelligence by responding to social media platforms and the iraqak.marketing platform that specializes in making mobile electronic branches for your project and other projects that simulate artificial intelligence in e-marketing",
+    "bossBio": "And the owner of the Iraqak group of companies in your hands and the iQ bot platform that supports artificial intelligence by responding to social media platforms and the iQ Store platform that specializes in making mobile electronic branches for your project and other projects that simulate artificial intelligence in e-marketing",
     "location": "Iraq, Karbala, Al-Baladiya neighborhood, next to Elaf Bank",
     "AdsTerms": "In the event that you are unable to implement a specific order through the site, you can communicate with the administration through the Facebook page. Official working hours are from 8 am to 8 pm. A way to contact technical support is through the Facebook page only http://m.me/ IQBot.me",
     "TermsConditions": [
@@ -111,7 +137,6 @@
             "music": "img2"
         }
     ],
-
     "note": "This is advanced programming to improve the WhatsApp service, and it is not an official API for WhatsApp",
     "note1": "Important note : ",
     "acceptTerms": "Agree to the Terms of Use and Privacy Policy",

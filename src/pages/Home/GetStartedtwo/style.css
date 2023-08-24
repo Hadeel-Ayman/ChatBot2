@@ -71,6 +71,28 @@
     font-weight: 600;
 }
 
+@media (max-width:320px) {
+    .get-startedtwo {
+        max-width: 90% !important;
+    }
+}
+
+@media (max-width:340px) {
+    .Register2 button {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:363px) {
+    .icon-flex {
+        margin-right: 0 !important;
+    }
+
+    .ll {
+        padding-right: 12% !important;
+    }
+}
+
 .button {
     font-weight: 500;
     padding: 0.6rem 1.4rem;

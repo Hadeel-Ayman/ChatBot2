@@ -8,10 +8,13 @@ import Features from './features'
 import Subscription from './subscription'
 import IqService from './iQService'
 import Contact from './contactUs'
+import Footer from '../../components/layout/Footer'
+import Header from '../../components/layout/Header'
 
 const Home = () => {
   return (
     <div>
+      <Header />
       <Main />
       <SocialSection />
       <Services />
@@ -21,6 +24,7 @@ const Home = () => {
       <GetStartedtwo />
       <IqService />
       <Contact />
+      <Footer />
     </div>
   )
 }

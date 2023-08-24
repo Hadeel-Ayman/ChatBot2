@@ -6,7 +6,7 @@ const Our = ({ Image, title, description, description2 }) => {
   return (
     <div className="works_card">
       <div className="imagee">
-        <img src={Image} alt="" className="works_img" />
+        <img src={Image} alt="works_img" className="works_img" loading='lazy'/>
       </div>
       <h3 className="works_title">{title}</h3>
       <Link className="works_description">{description}</Link>

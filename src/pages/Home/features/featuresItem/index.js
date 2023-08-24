@@ -5,7 +5,7 @@ const FItem = ({ src, title, backgroundColor }) => {
     return (
         <div className='FItem_item'>
             <div className='img_div' style={{ backgroundColor }}>
-                <img src={src} alt='' />
+                <img src={src} alt='img_div' loading='lazy'/>
             </div>
             <h5>{title}</h5>
         </div>

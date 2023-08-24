@@ -1,22 +1,26 @@
 import { useTranslation } from 'react-i18next';
 import './App.css';
-import Footer from './components/layout/Footer';
-import Header from './components/layout/Header';
 import Routerr from './router/router';
-// import TextDirection from './components/DirText';
+import { useEffect, useState } from 'react';
+import SplashScreen from './pages/spalshScreen';
 
 
 function App() {
   const { i18n } = useTranslation();
+  const [showSplash, setShowSplash] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowSplash(false);
+    }, 2500);
+  }, []);
 
   let currentLanguage = i18n.language;
   const isRTL = currentLanguage === 'ar';
 
   return (
     <div className={`${isRTL ? 'rtl' : 'ltr'}`} style={{ backgroundColor: 'var(--background-color)' }}>
-      <Header />
-      <Routerr />
-      <Footer />
+      {showSplash ? <SplashScreen /> : <Routerr />}
     </div>
   );
 }

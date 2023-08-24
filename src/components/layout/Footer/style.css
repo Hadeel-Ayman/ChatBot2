@@ -15,7 +15,7 @@
 }
 
 a {
-  cursor: pointer ;
+  cursor: pointer;
 }
 
 .flex,
@@ -78,11 +78,15 @@ a {
   font-size: 20px;
   font-weight: 700;
   line-height: 32px;
-  /* color: #FFFFFF; */
   color: #E4E6EB;
-
 }
 
+@media (max-width:300px) {
+  .footer_img {
+    width: 234px !important;
+    height: 264px !important;
+  }
+}
 
 .right {
   /* width: 70%; */

@@ -1,11 +1,38 @@
-.counter_wrapper {
+/* .counter_wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.counter {
+    padding: 60px 0 120px;
+} */
+
+
+.counter_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     width: 80%;
     /* background-color: red; */
     margin: auto;
     /* overflow-x: hidden; */
+}
+
+@media (max-width:1000px) {
+    .counter_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media (max-width:450px) {
+    .counter_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
 
 .counter {

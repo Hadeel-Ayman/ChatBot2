@@ -10,6 +10,7 @@ import imgg4 from "../../../assets/images/Fire.svg";
 import { motion } from "framer-motion";
 import { fadeIn, staggerChildren } from "../../../utils/motion";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+
 const GetStartedtwo = () => {
   const { t } = useTranslation();
   return (
@@ -24,10 +25,10 @@ const GetStartedtwo = () => {
       >
         <div className="h">
           <div className="icon-flex">
-            <img src={instagram} alt="" />
-            <img src={whatsapp} alt="" />
-            <img src={messenger} alt="" />
-            <img src={facebook} alt="" />
+            <img src={instagram} alt="" loading='lazy' />
+            <img src={whatsapp} alt="" loading='lazy' />
+            <img src={messenger} alt="" loading='lazy' />
+            <img src={facebook} alt="" loading='lazy' />
           </div>
 
           <div className="button-contt getstart_icon">
@@ -50,7 +51,6 @@ const GetStartedtwo = () => {
               <span className="">Do you need anything else ?</span>
             </div>
           </div>
-          {/* display: inline */}
           <div className="button-cont button-conth">
             <div className="rrr">
               <img className="ee" src={imgg4} alt="Chart" />

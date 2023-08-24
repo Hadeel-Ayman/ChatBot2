@@ -32,7 +32,7 @@ const SignupModal = () => {
                             </form>
                         </div>
                         <div className='div_robot'>
-                            <img src={robot} alt='' />
+                            <img src={robot} alt='div_robot' loading='lazy'/>
                         </div>
                     </div>
                 </div>

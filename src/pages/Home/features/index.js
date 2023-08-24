@@ -31,7 +31,7 @@ const Features = () => {
                     <FItem src={messagee} backgroundColor={'#0F38B21A'} title={t('featuresItem1')} />
                     <FItem src={dollar} backgroundColor={'#29A71A1A'} title={t('featuresItem2')} />
                     <FItem src={img24} backgroundColor={'#F8B9101A'} title={t('featuresItem3')} />
-                    <FItem src={persons} backgroundColor={'#643DCE1A'} title={t('featuresItem3')} />
+                    <FItem src={persons} backgroundColor={'#643DCE1A'} title={t('featuresItem4')} />
                 </div>
             </motion.section>
         </motion.div>

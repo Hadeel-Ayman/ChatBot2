@@ -14,16 +14,34 @@
   direction: ltr;
 }
 
+.ltr .customer_service {
+  right: -1.7%
+}
+
+.rtl nav .navbar-nav .nav-link {
+  display: flex;
+  direction: ltr;
+}
 
 .ltr nav .navbar-nav {
   display: flex;
-  gap: 4px;
+  direction: rtl;
+}
+
+@media (max-width:991px) {
+  .rtl nav .navbar-nav {
+    display: flex;
+    direction: ltr;
+  }
 }
 
 .ltr .footer_container {
   gap: 12px;
 }
 
+.ltr h5 {
+  font-size: 1rem;
+}
 
 .ltr .r-button>:nth-child(1) {
   transform: rotate(180deg);
@@ -32,6 +50,19 @@
 .ltr .r-button>:nth-child(2) {
   transform: rotate(0);
 }
+
+.ltr .swiper {
+  direction: rtl;
+  /* transform: translate3d(-530px, 0px, 0px); */
+}
+
+.ltr .fade-in {
+  direction: ltr !important;
+}
+
+/* .rtl .swiper-wrapper {
+  transform: translate3d(0px, 0px, 0px);
+} */
 
 .ltr .item1 .works_card {
   margin-left: 0;
@@ -72,11 +103,53 @@
 }
 
 .ltr .overlay {
-  left: -17%;
+  right: 0%;
+  direction: rtl;
 }
 
 .ltr .a {
-  top: -537px;
+  left: 15%;
+}
+
+@media (min-width:2040px) {
+  .ltr .a {
+    left: 40%;
+  }
+}
+
+@media (max-width:370px) {
+  .ltr .whatsap_div a {
+    width: 70% !important;
+  }
+}
+
+@media (min-width:690px) and (max-width:780px) {
+  .ltr .a {
+    left: 15% !important;
+  }
+
+  .rtl .a {
+    left: 15% !important;
+  }
+}
+
+@media (max-width:400px) {
+  .ltr .a {
+    left: 0% !important;
+    top: -200px !important;
+  }
+}
+
+@media (max-width:1200px) {
+  .ltr .a {
+    left: 30%;
+  }
+}
+
+@media (max-width:780px) {
+  .ltr .hero_img img {
+    width: 100% !important;
+  }
 }
 
 .ltr .hero_img img {
@@ -115,13 +188,6 @@
     padding-left: 8px;
   }
 }
-
-
-
-
-
-
-
 
 a {
   text-decoration: none;

@@ -40,30 +40,30 @@ const Footer = () => {
                 <div className='footer_container flex' >
                     <>
                         <div className='leftt' data-aos='fade-down-right' >
-                            <img src={footer} alt='' className='footer_img' />
+                            <img src={footer} alt='footer_img' className='footer_img' loading='lazy' />
                         </div>
                         <motion.div className='right' data-aos='fade-down-left' variants={footerVariants}>
                             <Heading title={t('boss')} />
                             <p className='desc'>{t('bossBio')}</p>
                             <div className='paragraph'>
-                                <img className='footer-icon' src={location} alt='' />
+                                <img className='footer-icon' src={location} alt='' loading='lazy' />
                                 <p className='desc2 '>{t('location')}</p>
                             </div>
                             <div className='paragraph paragraph2'>
                                 <a onClick={openEmail}>
-                                    <img className='footer-icon' src={email} alt='' />
+                                    <img className='footer-icon' src={email} alt='footer-icon' loading='lazy' />
                                 </a>
                                 <a href='https://instagram.com/iraq_between_hands?igshid=MmU2YjMzNjRlOQ==' target='_blank' rel="noreferrer">
-                                    <img className='footer-icon' src={facebook} alt='' />
+                                    <img className='footer-icon' src={facebook} alt='' loading='lazy' />
                                 </a>
                                 <a onClick={handleLocation}>
-                                    <img className='footer-icon' src={insta} alt='' />
+                                    <img className='footer-icon' src={insta} alt='' loading='lazy' />
                                 </a>
-                                <a href='https://t.me/iraqbot' target='_blank' rel="noreferrer">
-                                    <img className='footer-icon' src={telegram} alt='' />
+                                <a href='https://t.me/iraqbetweenhands' target='_blank' rel="noreferrer">
+                                    <img className='footer-icon' src={telegram} alt='' loading='lazy' />
                                 </a>
                                 <a href='https://api.whatsapp.com/send/?phone=9647808031115' target='_blank' rel="noreferrer">
-                                    <img className='footer-icon' src={whatsup} alt='' />
+                                    <img className='footer-icon' src={whatsup} alt='' loading='lazy' />
                                 </a>
                             </div>
                         </motion.div>

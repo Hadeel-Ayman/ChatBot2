@@ -7,8 +7,8 @@ const IqServiceItem = ({ name, job, src, music }) => {
             <h5>{name}</h5>
             <p>{job}</p>
             <div className='flex'>
-                <img src={src} alt='' />
-                <img src={music} alt='' />
+                <img src={src} alt='src' loading='lazy' />
+                <img src={music} alt='music' loading='lazy' />
             </div>
         </div>
     )

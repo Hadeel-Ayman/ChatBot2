@@ -178,7 +178,11 @@
     border-radius: 20px;
     margin-bottom: 150px;
 }
-
+@media (max-width:320px) {
+    .get-started{
+        max-width: 90% !important;
+    }
+}
 .get-started-content {
     /* width: 50%; */
     /* padding: 40px; */

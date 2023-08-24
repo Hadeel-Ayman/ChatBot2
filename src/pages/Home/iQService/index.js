@@ -87,8 +87,8 @@ const IqService = () => {
                                         <h3 className='services_title'>{t(item.shams || item.Ahmed || item.Eman || item.Randa)}</h3>
                                         <p>{t(item.job)}</p>
                                         <div className='IQ_flex'>
-                                            <img src={item.src === 'pause' ? puase : item.src === 'run' ? run : ''} alt='' />
-                                            <img src={item.music === 'img2' ? img2 : item.music === 'music' ? music : ''} alt='' />
+                                            <img src={item.src === 'pause' ? puase : item.src === 'run' ? run : ''} alt='' loading='lazy' />
+                                            <img src={item.music === 'img2' ? img2 : item.music === 'music' ? music : ''} alt='' loading='lazy' />
                                         </div>
                                     </div>
                                 </SwiperSlide>

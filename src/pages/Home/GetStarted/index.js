@@ -36,16 +36,16 @@ const GetStarted = () => {
         <div className="right-content">
           <div className="divChart" style={{ display: "flex" }}>
             <div className="tt">
-              <img src={imgg} alt="Chart" />
+              <img src={imgg} alt="Chart" loading='lazy' />
             </div>
             <div className="tt2">
-              <img src={imgg2} alt="Chart" />
+              <img src={imgg2} alt="Chart" loading='lazy' />
             </div>
           </div>
 
           <div className="button-cont">
             <div className="rrr">
-              <img className="ee" src={imgg4} alt="Chart" />
+              <img className="ee" src={imgg4} alt="Chart" loading='lazy'/>
               <div className="l">
                 <span className="f">
                   345.23 K SALES <br /> <span className="m">Increase 70%</span>

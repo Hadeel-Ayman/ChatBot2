@@ -5,7 +5,7 @@ import Backend from 'i18next-http-backend'
 import arabic from '../local/ar.json'
 import english from '../local/en.json'
 
-const lang = localStorage.getItem('lang') || 'en'
+const lang = localStorage.getItem('lang') || 'ar'
 
 const resources = {
     en: {

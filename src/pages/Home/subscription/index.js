@@ -12,7 +12,6 @@ import { fadeIn, staggerChildren } from '../../../utils/motion';
 import { useTranslation } from 'react-i18next';
 import PaymentType from '../../../components/paymentType';
 import PaymentModal from '../../../components/payment';
-// import Button from 'react-bootstrap/Button';
 
 const Subscription = () => {
     const { t } = useTranslation()
@@ -88,13 +87,10 @@ const Subscription = () => {
                             title={t('subscription')}
                             color={'#0F49CC'}
                             onClick={handleShow}
-
                             backgroundColor={'#0F49CC14'} />
                     </div>
                 </div>
-                {/* </div> */}
             </motion.div>
-
         </motion.div >
     );
 };
